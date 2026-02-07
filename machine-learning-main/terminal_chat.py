@@ -1,6 +1,5 @@
 
 from brain.knowledge_base import generate_response_from_knowledge
-from brain_legacy import detect_and_log_unknown_words
 import logging
 import json
 
@@ -24,7 +23,6 @@ if __name__ == "__main__":
             # If the AI can't provide a direct answer from its knowledge, log words for learning
             if not assistant_response:
                 print("AI: Thank you. I have no prior knowledge of that. I will learn from your words.")
-                detect_and_log_unknown_words(prompt)
                 print("AI: (Your words have been added to my learning queue.)")
             else:
                 print(f"AI: {assistant_response}")

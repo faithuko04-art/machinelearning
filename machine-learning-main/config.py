@@ -61,6 +61,9 @@ class Config:
 
     CHROMA_EMBEDDING_MODEL: str = os.environ.get("CHROMA_EMBEDDING_MODEL", "all-MiniLM-L6-v2")
     CHROMA_COLLECTION_NAME: str = os.environ.get("CHROMA_COLLECTION_NAME", "knowledge_base")
+    # --- Ignis (local/custom model) endpoint ---
+    IGNIS_API_URL: str | None = os.environ.get("IGNIS_API_URL")
+    IGNIS_MODEL_NAME: str = os.environ.get("IGNIS_MODEL_NAME", "Ignis")
 
 # --- Global Configuration Instance ---
 # A single, immutable instance of the Config class that is imported by other modules.

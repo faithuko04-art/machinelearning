@@ -1,0 +1,10936 @@
+{
+  "nodes": [
+    {
+      "id": "hello",
+      "label": "hello",
+      "category": "unknown"
+    },
+    {
+      "id": "this",
+      "label": "this",
+      "category": "derived"
+    },
+    {
+      "id": "example",
+      "label": "example",
+      "category": "derived"
+    },
+    {
+      "id": "sentence",
+      "label": "sentence",
+      "category": "derived"
+    },
+    {
+      "id": "using",
+      "label": "using",
+      "category": "derived"
+    },
+    {
+      "id": "the",
+      "label": "the",
+      "category": "derived"
+    },
+    {
+      "id": "word",
+      "label": "word",
+      "category": "derived"
+    },
+    {
+      "id": "placeholder",
+      "label": "placeholder",
+      "category": "derived"
+    },
+    {
+      "id": "definition",
+      "label": "definition",
+      "category": "derived"
+    },
+    {
+      "id": "hi",
+      "label": "hi",
+      "category": "unknown"
+    },
+    {
+      "id": "yes",
+      "label": "yes",
+      "category": "unknown"
+    },
+    {
+      "id": "no",
+      "label": "no",
+      "category": "unknown"
+    },
+    {
+      "id": "please",
+      "label": "please",
+      "category": "unknown"
+    },
+    {
+      "id": "thanks",
+      "label": "thanks",
+      "category": "unknown"
+    },
+    {
+      "id": "thank",
+      "label": "thank",
+      "category": "unknown"
+    },
+    {
+      "id": "you",
+      "label": "you",
+      "category": "unknown"
+    },
+    {
+      "id": "i",
+      "label": "i",
+      "category": "unknown"
+    },
+    {
+      "id": "we",
+      "label": "we",
+      "category": "unknown"
+    },
+    {
+      "id": "they",
+      "label": "they",
+      "category": "unknown"
+    },
+    {
+      "id": "he",
+      "label": "he",
+      "category": "unknown"
+    },
+    {
+      "id": "she",
+      "label": "she",
+      "category": "unknown"
+    },
+    {
+      "id": "it",
+      "label": "it",
+      "category": "unknown"
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "category": "unknown"
+    },
+    {
+      "id": "when",
+      "label": "when",
+      "category": "unknown"
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "category": "unknown"
+    },
+    {
+      "id": "why",
+      "label": "why",
+      "category": "unknown"
+    },
+    {
+      "id": "how",
+      "label": "how",
+      "category": "unknown"
+    },
+    {
+      "id": "who",
+      "label": "who",
+      "category": "unknown"
+    },
+    {
+      "id": "name",
+      "label": "name",
+      "category": "unknown"
+    },
+    {
+      "id": "help",
+      "label": "help",
+      "category": "unknown"
+    },
+    {
+      "id": "need",
+      "label": "need",
+      "category": "unknown"
+    },
+    {
+      "id": "want",
+      "label": "want",
+      "category": "unknown"
+    },
+    {
+      "id": "like",
+      "label": "like",
+      "category": "unknown"
+    },
+    {
+      "id": "love",
+      "label": "love",
+      "category": "unknown"
+    },
+    {
+      "id": "hate",
+      "label": "hate",
+      "category": "unknown"
+    },
+    {
+      "id": "good",
+      "label": "good",
+      "category": "unknown"
+    },
+    {
+      "id": "bad",
+      "label": "bad",
+      "category": "unknown"
+    },
+    {
+      "id": "okay",
+      "label": "okay",
+      "category": "unknown"
+    },
+    {
+      "id": "sorry",
+      "label": "sorry",
+      "category": "unknown"
+    },
+    {
+      "id": "apologize",
+      "label": "apologize",
+      "category": "unknown"
+    },
+    {
+      "id": "wait",
+      "label": "wait",
+      "category": "unknown"
+    },
+    {
+      "id": "stop",
+      "label": "stop",
+      "category": "unknown"
+    },
+    {
+      "id": "start",
+      "label": "start",
+      "category": "unknown"
+    },
+    {
+      "id": "open",
+      "label": "open",
+      "category": "unknown"
+    },
+    {
+      "id": "close",
+      "label": "close",
+      "category": "unknown"
+    },
+    {
+      "id": "read",
+      "label": "read",
+      "category": "unknown"
+    },
+    {
+      "id": "write",
+      "label": "write",
+      "category": "unknown"
+    },
+    {
+      "id": "run",
+      "label": "run",
+      "category": "unknown"
+    },
+    {
+      "id": "walk",
+      "label": "walk",
+      "category": "unknown"
+    },
+    {
+      "id": "talk",
+      "label": "talk",
+      "category": "unknown"
+    },
+    {
+      "id": "speak",
+      "label": "speak",
+      "category": "unknown"
+    },
+    {
+      "id": "listen",
+      "label": "listen",
+      "category": "unknown"
+    },
+    {
+      "id": "hear",
+      "label": "hear",
+      "category": "unknown"
+    },
+    {
+      "id": "see",
+      "label": "see",
+      "category": "unknown"
+    },
+    {
+      "id": "look",
+      "label": "look",
+      "category": "unknown"
+    },
+    {
+      "id": "find",
+      "label": "find",
+      "category": "unknown"
+    },
+    {
+      "id": "search",
+      "label": "search",
+      "category": "unknown"
+    },
+    {
+      "id": "ask",
+      "label": "ask",
+      "category": "unknown"
+    },
+    {
+      "id": "answer",
+      "label": "answer",
+      "category": "unknown"
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "category": "unknown"
+    },
+    {
+      "id": "request",
+      "label": "request",
+      "category": "unknown"
+    },
+    {
+      "id": "response",
+      "label": "response",
+      "category": "unknown"
+    },
+    {
+      "id": "helpful",
+      "label": "helpful",
+      "category": "unknown"
+    },
+    {
+      "id": "assist",
+      "label": "assist",
+      "category": "unknown"
+    },
+    {
+      "id": "information",
+      "label": "information",
+      "category": "unknown"
+    },
+    {
+      "id": "data",
+      "label": "data",
+      "category": "unknown"
+    },
+    {
+      "id": "file",
+      "label": "file",
+      "category": "unknown"
+    },
+    {
+      "id": "folder",
+      "label": "folder",
+      "category": "unknown"
+    },
+    {
+      "id": "system",
+      "label": "system",
+      "category": "unknown"
+    },
+    {
+      "id": "user",
+      "label": "user",
+      "category": "unknown"
+    },
+    {
+      "id": "agent",
+      "label": "agent",
+      "category": "unknown"
+    },
+    {
+      "id": "bot",
+      "label": "bot",
+      "category": "unknown"
+    },
+    {
+      "id": "chat",
+      "label": "chat",
+      "category": "unknown"
+    },
+    {
+      "id": "conversation",
+      "label": "conversation",
+      "category": "unknown"
+    },
+    {
+      "id": "message",
+      "label": "message",
+      "category": "unknown"
+    },
+    {
+      "id": "email",
+      "label": "email",
+      "category": "unknown"
+    },
+    {
+      "id": "phone",
+      "label": "phone",
+      "category": "unknown"
+    },
+    {
+      "id": "contact",
+      "label": "contact",
+      "category": "unknown"
+    },
+    {
+      "id": "time",
+      "label": "time",
+      "category": "unknown"
+    },
+    {
+      "id": "date",
+      "label": "date",
+      "category": "unknown"
+    },
+    {
+      "id": "today",
+      "label": "today",
+      "category": "unknown"
+    },
+    {
+      "id": "tomorrow",
+      "label": "tomorrow",
+      "category": "unknown"
+    },
+    {
+      "id": "yesterday",
+      "label": "yesterday",
+      "category": "unknown"
+    },
+    {
+      "id": "morning",
+      "label": "morning",
+      "category": "unknown"
+    },
+    {
+      "id": "evening",
+      "label": "evening",
+      "category": "unknown"
+    },
+    {
+      "id": "night",
+      "label": "night",
+      "category": "unknown"
+    },
+    {
+      "id": "soon",
+      "label": "soon",
+      "category": "unknown"
+    },
+    {
+      "id": "later",
+      "label": "later",
+      "category": "unknown"
+    },
+    {
+      "id": "home",
+      "label": "home",
+      "category": "unknown"
+    },
+    {
+      "id": "work",
+      "label": "work",
+      "category": "unknown"
+    },
+    {
+      "id": "office",
+      "label": "office",
+      "category": "unknown"
+    },
+    {
+      "id": "school",
+      "label": "school",
+      "category": "unknown"
+    },
+    {
+      "id": "university",
+      "label": "university",
+      "category": "unknown"
+    },
+    {
+      "id": "city",
+      "label": "city",
+      "category": "unknown"
+    },
+    {
+      "id": "country",
+      "label": "country",
+      "category": "unknown"
+    },
+    {
+      "id": "place",
+      "label": "place",
+      "category": "unknown"
+    },
+    {
+      "id": "room",
+      "label": "room",
+      "category": "unknown"
+    },
+    {
+      "id": "kitchen",
+      "label": "kitchen",
+      "category": "unknown"
+    },
+    {
+      "id": "food",
+      "label": "food",
+      "category": "unknown"
+    },
+    {
+      "id": "water",
+      "label": "water",
+      "category": "unknown"
+    },
+    {
+      "id": "drink",
+      "label": "drink",
+      "category": "unknown"
+    },
+    {
+      "id": "eat",
+      "label": "eat",
+      "category": "unknown"
+    },
+    {
+      "id": "cook",
+      "label": "cook",
+      "category": "unknown"
+    },
+    {
+      "id": "buy",
+      "label": "buy",
+      "category": "unknown"
+    },
+    {
+      "id": "sell",
+      "label": "sell",
+      "category": "unknown"
+    },
+    {
+      "id": "price",
+      "label": "price",
+      "category": "unknown"
+    },
+    {
+      "id": "cost",
+      "label": "cost",
+      "category": "unknown"
+    },
+    {
+      "id": "cheap",
+      "label": "cheap",
+      "category": "unknown"
+    },
+    {
+      "id": "book",
+      "label": "book",
+      "category": "unknown"
+    },
+    {
+      "id": "story",
+      "label": "story",
+      "category": "unknown"
+    },
+    {
+      "id": "movie",
+      "label": "movie",
+      "category": "unknown"
+    },
+    {
+      "id": "music",
+      "label": "music",
+      "category": "unknown"
+    },
+    {
+      "id": "song",
+      "label": "song",
+      "category": "unknown"
+    },
+    {
+      "id": "play",
+      "label": "play",
+      "category": "unknown"
+    },
+    {
+      "id": "pause",
+      "label": "pause",
+      "category": "unknown"
+    },
+    {
+      "id": "weather",
+      "label": "weather",
+      "category": "unknown"
+    },
+    {
+      "id": "temperature",
+      "label": "temperature",
+      "category": "unknown"
+    },
+    {
+      "id": "rain",
+      "label": "rain",
+      "category": "unknown"
+    },
+    {
+      "id": "sun",
+      "label": "sun",
+      "category": "unknown"
+    },
+    {
+      "id": "cloud",
+      "label": "cloud",
+      "category": "unknown"
+    },
+    {
+      "id": "wind",
+      "label": "wind",
+      "category": "unknown"
+    },
+    {
+      "id": "snow",
+      "label": "snow",
+      "category": "unknown"
+    },
+    {
+      "id": "storm",
+      "label": "storm",
+      "category": "unknown"
+    },
+    {
+      "id": "forecast",
+      "label": "forecast",
+      "category": "unknown"
+    },
+    {
+      "id": "climate",
+      "label": "climate",
+      "category": "unknown"
+    },
+    {
+      "id": "money",
+      "label": "money",
+      "category": "unknown"
+    },
+    {
+      "id": "bank",
+      "label": "bank",
+      "category": "unknown"
+    },
+    {
+      "id": "account",
+      "label": "account",
+      "category": "unknown"
+    },
+    {
+      "id": "card",
+      "label": "card",
+      "category": "unknown"
+    },
+    {
+      "id": "pay",
+      "label": "pay",
+      "category": "unknown"
+    },
+    {
+      "id": "transfer",
+      "label": "transfer",
+      "category": "unknown"
+    },
+    {
+      "id": "balance",
+      "label": "balance",
+      "category": "unknown"
+    },
+    {
+      "id": "deposit",
+      "label": "deposit",
+      "category": "unknown"
+    },
+    {
+      "id": "withdraw",
+      "label": "withdraw",
+      "category": "unknown"
+    },
+    {
+      "id": "invoice",
+      "label": "invoice",
+      "category": "unknown"
+    },
+    {
+      "id": "computer",
+      "label": "computer",
+      "category": "unknown"
+    },
+    {
+      "id": "laptop",
+      "label": "laptop",
+      "category": "unknown"
+    },
+    {
+      "id": "tablet",
+      "label": "tablet",
+      "category": "unknown"
+    },
+    {
+      "id": "screen",
+      "label": "screen",
+      "category": "unknown"
+    },
+    {
+      "id": "keyboard",
+      "label": "keyboard",
+      "category": "unknown"
+    },
+    {
+      "id": "mouse",
+      "label": "mouse",
+      "category": "unknown"
+    },
+    {
+      "id": "internet",
+      "label": "internet",
+      "category": "unknown"
+    },
+    {
+      "id": "network",
+      "label": "network",
+      "category": "unknown"
+    },
+    {
+      "id": "wifi",
+      "label": "wifi",
+      "category": "unknown"
+    },
+    {
+      "id": "learn",
+      "label": "learn",
+      "category": "unknown"
+    },
+    {
+      "id": "teach",
+      "label": "teach",
+      "category": "unknown"
+    },
+    {
+      "id": "study",
+      "label": "study",
+      "category": "unknown"
+    },
+    {
+      "id": "course",
+      "label": "course",
+      "category": "unknown"
+    },
+    {
+      "id": "lesson",
+      "label": "lesson",
+      "category": "unknown"
+    },
+    {
+      "id": "practice",
+      "label": "practice",
+      "category": "unknown"
+    },
+    {
+      "id": "exercise",
+      "label": "exercise",
+      "category": "unknown"
+    },
+    {
+      "id": "test",
+      "label": "test",
+      "category": "unknown"
+    },
+    {
+      "id": "quiz",
+      "label": "quiz",
+      "category": "unknown"
+    },
+    {
+      "id": "grade",
+      "label": "grade",
+      "category": "unknown"
+    },
+    {
+      "id": "health",
+      "label": "health",
+      "category": "unknown"
+    },
+    {
+      "id": "doctor",
+      "label": "doctor",
+      "category": "unknown"
+    },
+    {
+      "id": "hospital",
+      "label": "hospital",
+      "category": "unknown"
+    },
+    {
+      "id": "medicine",
+      "label": "medicine",
+      "category": "unknown"
+    },
+    {
+      "id": "disease",
+      "label": "disease",
+      "category": "unknown"
+    },
+    {
+      "id": "pain",
+      "label": "pain",
+      "category": "unknown"
+    },
+    {
+      "id": "cure",
+      "label": "cure",
+      "category": "unknown"
+    },
+    {
+      "id": "symptom",
+      "label": "symptom",
+      "category": "unknown"
+    },
+    {
+      "id": "treatment",
+      "label": "treatment",
+      "category": "unknown"
+    },
+    {
+      "id": "checkup",
+      "label": "checkup",
+      "category": "unknown"
+    },
+    {
+      "id": "sport",
+      "label": "sport",
+      "category": "unknown"
+    },
+    {
+      "id": "game",
+      "label": "game",
+      "category": "unknown"
+    },
+    {
+      "id": "team",
+      "label": "team",
+      "category": "unknown"
+    },
+    {
+      "id": "player",
+      "label": "player",
+      "category": "unknown"
+    },
+    {
+      "id": "score",
+      "label": "score",
+      "category": "unknown"
+    },
+    {
+      "id": "win",
+      "label": "win",
+      "category": "unknown"
+    },
+    {
+      "id": "lose",
+      "label": "lose",
+      "category": "unknown"
+    },
+    {
+      "id": "match",
+      "label": "match",
+      "category": "unknown"
+    },
+    {
+      "id": "league",
+      "label": "league",
+      "category": "unknown"
+    },
+    {
+      "id": "season",
+      "label": "season",
+      "category": "unknown"
+    },
+    {
+      "id": "car",
+      "label": "car",
+      "category": "unknown"
+    },
+    {
+      "id": "vehicle",
+      "label": "vehicle",
+      "category": "unknown"
+    },
+    {
+      "id": "drive",
+      "label": "drive",
+      "category": "unknown"
+    },
+    {
+      "id": "ride",
+      "label": "ride",
+      "category": "unknown"
+    },
+    {
+      "id": "bus",
+      "label": "bus",
+      "category": "unknown"
+    },
+    {
+      "id": "train",
+      "label": "train",
+      "category": "unknown"
+    },
+    {
+      "id": "plane",
+      "label": "plane",
+      "category": "unknown"
+    },
+    {
+      "id": "airport",
+      "label": "airport",
+      "category": "unknown"
+    },
+    {
+      "id": "ticket",
+      "label": "ticket",
+      "category": "unknown"
+    },
+    {
+      "id": "journey",
+      "label": "journey",
+      "category": "unknown"
+    },
+    {
+      "id": "family",
+      "label": "family",
+      "category": "unknown"
+    },
+    {
+      "id": "mother",
+      "label": "mother",
+      "category": "unknown"
+    },
+    {
+      "id": "father",
+      "label": "father",
+      "category": "unknown"
+    },
+    {
+      "id": "sister",
+      "label": "sister",
+      "category": "unknown"
+    },
+    {
+      "id": "brother",
+      "label": "brother",
+      "category": "unknown"
+    },
+    {
+      "id": "child",
+      "label": "child",
+      "category": "unknown"
+    },
+    {
+      "id": "parent",
+      "label": "parent",
+      "category": "unknown"
+    },
+    {
+      "id": "spouse",
+      "label": "spouse",
+      "category": "unknown"
+    },
+    {
+      "id": "friend",
+      "label": "friend",
+      "category": "unknown"
+    },
+    {
+      "id": "neighbor",
+      "label": "neighbor",
+      "category": "unknown"
+    },
+    {
+      "id": "code",
+      "label": "code",
+      "category": "unknown"
+    },
+    {
+      "id": "program",
+      "label": "program",
+      "category": "unknown"
+    },
+    {
+      "id": "script",
+      "label": "script",
+      "category": "unknown"
+    },
+    {
+      "id": "developer",
+      "label": "developer",
+      "category": "unknown"
+    },
+    {
+      "id": "engineer",
+      "label": "engineer",
+      "category": "unknown"
+    },
+    {
+      "id": "design",
+      "label": "design",
+      "category": "unknown"
+    },
+    {
+      "id": "deploy",
+      "label": "deploy",
+      "category": "unknown"
+    },
+    {
+      "id": "build",
+      "label": "build",
+      "category": "unknown"
+    },
+    {
+      "id": "security",
+      "label": "security",
+      "category": "unknown"
+    },
+    {
+      "id": "password",
+      "label": "password",
+      "category": "unknown"
+    },
+    {
+      "id": "login",
+      "label": "login",
+      "category": "unknown"
+    },
+    {
+      "id": "logout",
+      "label": "logout",
+      "category": "unknown"
+    },
+    {
+      "id": "auth",
+      "label": "auth",
+      "category": "unknown"
+    },
+    {
+      "id": "encrypt",
+      "label": "encrypt",
+      "category": "unknown"
+    },
+    {
+      "id": "access",
+      "label": "access",
+      "category": "unknown"
+    },
+    {
+      "id": "permission",
+      "label": "permission",
+      "category": "unknown"
+    },
+    {
+      "id": "role",
+      "label": "role",
+      "category": "unknown"
+    },
+    {
+      "id": "policy",
+      "label": "policy",
+      "category": "unknown"
+    },
+    {
+      "id": "error",
+      "label": "error",
+      "category": "unknown"
+    },
+    {
+      "id": "bug",
+      "label": "bug",
+      "category": "unknown"
+    },
+    {
+      "id": "fix",
+      "label": "fix",
+      "category": "unknown"
+    },
+    {
+      "id": "debug",
+      "label": "debug",
+      "category": "unknown"
+    },
+    {
+      "id": "trace",
+      "label": "trace",
+      "category": "unknown"
+    },
+    {
+      "id": "log",
+      "label": "log",
+      "category": "unknown"
+    },
+    {
+      "id": "info",
+      "label": "info",
+      "category": "unknown"
+    },
+    {
+      "id": "warning",
+      "label": "warning",
+      "category": "unknown"
+    },
+    {
+      "id": "critical",
+      "label": "critical",
+      "category": "unknown"
+    },
+    {
+      "id": "exception",
+      "label": "exception",
+      "category": "unknown"
+    },
+    {
+      "id": "project",
+      "label": "project",
+      "category": "unknown"
+    },
+    {
+      "id": "task",
+      "label": "task",
+      "category": "unknown"
+    },
+    {
+      "id": "issue",
+      "label": "issue",
+      "category": "unknown"
+    },
+    {
+      "id": "todo",
+      "label": "todo",
+      "category": "unknown"
+    },
+    {
+      "id": "plan",
+      "label": "plan",
+      "category": "unknown"
+    },
+    {
+      "id": "goal",
+      "label": "goal",
+      "category": "unknown"
+    },
+    {
+      "id": "milestone",
+      "label": "milestone",
+      "category": "unknown"
+    },
+    {
+      "id": "deadline",
+      "label": "deadline",
+      "category": "unknown"
+    },
+    {
+      "id": "priority",
+      "label": "priority",
+      "category": "unknown"
+    },
+    {
+      "id": "status",
+      "label": "status",
+      "category": "unknown"
+    },
+    {
+      "id": "art",
+      "label": "art",
+      "category": "unknown"
+    },
+    {
+      "id": "photo",
+      "label": "photo",
+      "category": "unknown"
+    },
+    {
+      "id": "image",
+      "label": "image",
+      "category": "unknown"
+    },
+    {
+      "id": "paint",
+      "label": "paint",
+      "category": "unknown"
+    },
+    {
+      "id": "draw",
+      "label": "draw",
+      "category": "unknown"
+    },
+    {
+      "id": "color",
+      "label": "color",
+      "category": "unknown"
+    },
+    {
+      "id": "style",
+      "label": "style",
+      "category": "unknown"
+    },
+    {
+      "id": "theme",
+      "label": "theme",
+      "category": "unknown"
+    },
+    {
+      "id": "layout",
+      "label": "layout",
+      "category": "unknown"
+    },
+    {
+      "id": "science",
+      "label": "science",
+      "category": "unknown"
+    },
+    {
+      "id": "biology",
+      "label": "biology",
+      "category": "unknown"
+    },
+    {
+      "id": "chemistry",
+      "label": "chemistry",
+      "category": "unknown"
+    },
+    {
+      "id": "physics",
+      "label": "physics",
+      "category": "unknown"
+    },
+    {
+      "id": "math",
+      "label": "math",
+      "category": "unknown"
+    },
+    {
+      "id": "statistics",
+      "label": "statistics",
+      "category": "unknown"
+    },
+    {
+      "id": "experiment",
+      "label": "experiment",
+      "category": "unknown"
+    },
+    {
+      "id": "research",
+      "label": "research",
+      "category": "unknown"
+    },
+    {
+      "id": "paper",
+      "label": "paper",
+      "category": "unknown"
+    }
+  ],
+  "links": [
+    {
+      "source": "hello",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "hello",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "hi",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "yes",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "no",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "please",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "thanks",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "thank",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "you",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "i",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "we",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "they",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "he",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "she",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "it",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "what",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "when",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "where",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "why",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "how",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "who",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "name",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "help",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "need",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "want",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "like",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "love",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "hate",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "good",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "bad",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "okay",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "sorry",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "apologize",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "wait",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "stop",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "start",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "open",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "close",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "read",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "write",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "run",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "walk",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "talk",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "speak",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "listen",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "hear",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "see",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "look",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "find",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "search",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "ask",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "answer",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "question",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "request",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "response",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "helpful",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "assist",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "information",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "data",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "file",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "folder",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "system",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "user",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "agent",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "bot",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "chat",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "conversation",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "message",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "email",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "phone",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "contact",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "time",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "date",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "today",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "tomorrow",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "yesterday",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "morning",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "evening",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "night",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "soon",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "later",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "home",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "work",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "office",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "school",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "university",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "city",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "country",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "place",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "room",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "kitchen",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "food",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "water",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "drink",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "eat",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "cook",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "buy",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "sell",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "price",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "cost",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "cheap",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "book",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "story",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "movie",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "music",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "song",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "play",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "pause",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "weather",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "temperature",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "rain",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "sun",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "cloud",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "wind",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "snow",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "storm",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "forecast",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "climate",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "money",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "bank",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "account",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "card",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "pay",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "transfer",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "balance",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "deposit",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "withdraw",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "invoice",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "computer",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "laptop",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "tablet",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "screen",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "keyboard",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "mouse",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "internet",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "network",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "wifi",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "learn",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "teach",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "study",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "course",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "lesson",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "practice",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "exercise",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "test",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "quiz",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "grade",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "health",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "doctor",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "hospital",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "medicine",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "disease",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "pain",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "cure",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "symptom",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "treatment",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "checkup",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "sport",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "game",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "team",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "player",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "score",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "win",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "lose",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "match",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "league",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "season",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "car",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "vehicle",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "drive",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "ride",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "bus",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "train",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "plane",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "airport",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "ticket",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "journey",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "family",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "mother",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "father",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "sister",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "brother",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "child",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "parent",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "spouse",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "friend",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "neighbor",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "code",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "program",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "script",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "developer",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "engineer",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "design",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "deploy",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "build",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "security",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "password",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "login",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "logout",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "auth",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "encrypt",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "access",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "permission",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "role",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "policy",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "error",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "bug",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "fix",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "debug",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "trace",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "log",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "info",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "warning",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "critical",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "exception",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "project",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "task",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "issue",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "todo",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "plan",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "goal",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "milestone",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "deadline",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "priority",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "status",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "art",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "photo",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "image",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "paint",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "draw",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "color",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "style",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "theme",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "layout",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "science",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "biology",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "chemistry",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "physics",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "math",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "statistics",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "experiment",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "research",
+      "target": "definition",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "this",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "example",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "sentence",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "using",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "the",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "word",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "placeholder",
+      "weight": 1
+    },
+    {
+      "source": "paper",
+      "target": "definition",
+      "weight": 1
+    }
+  ]
+}

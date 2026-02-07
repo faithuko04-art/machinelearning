@@ -1,8 +1,8 @@
 import logging
 from brain.db import is_known, add_word
-from researcher import quick_research
-from ai_providers import groq_generate_text
-from services import nlp, db
+from services.researcher import quick_research
+from services.ai_providers import groq_generate_text
+from services.services import nlp
 
 logger = logging.getLogger(__name__)
 

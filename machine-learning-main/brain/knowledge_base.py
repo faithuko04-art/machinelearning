@@ -4,17 +4,11 @@ import json
 from typing import List, Dict
 from datetime import datetime
 
-from services import db, nlp, gemini, groq_client, get_health_status
-from chroma_helper import upsert_knowledge, query_similar, init_chroma
+from services.services import db, nlp, get_health_status
+from services.chroma_helper import upsert_knowledge, query_similar, init_chroma
+from services.ai_providers import groq_generate_text
 
 logger = logging.getLogger(__name__)
-
-def groq_generate_text(system_prompt: str, user_prompt: str) -> str:
-    """Placeholder for Groq text generation."""
-    logger.info(f"(Placeholder) Generating text with Groq with system prompt: {system_prompt} and user prompt: {user_prompt}")
-    if "extract related topics" in system_prompt.lower():
-        return '{\"topics\": [\"related topic 1\", \"related topic 2\"]}'
-    return "This is a placeholder response from Groq."
 
 def generate_response_from_knowledge(prompt_text: str, conversation_context: List = None) -> Dict:
     """
@@ -87,16 +81,73 @@ def extract_related_topics(text: str) -> List[str]:
 
 def detect_and_log_unknown_words(prompt: str):
     """
-    Logs prompts that may contain unknown words or concepts to Firestore for review.
+    Detects candidate unknown concepts from the prompt using spaCy noun-chunk
+    extraction and token lemmatization, filters out short/stopword tokens, deduplicates
+    overlapping phrases, logs the cleaned candidates to Firestore (`needs_review`) and 
+    adds them to the `unknown_words` collection for the learning pipeline.
     """
-    if db:
-        try:
-            review_ref = db.collection('needs_review').document()
-            review_ref.set({
-                'prompt': prompt,
-                'reason': 'Potential unknown concepts detected.',
-                'timestamp': datetime.utcnow()
-            })
-            logger.info(f"Logged prompt for review: {prompt}")
-        except Exception as e:
-            logger.error(f"Error logging prompt for review: {e}", exc_info=True)
+    try:
+        candidates = set()
+        stopset = {"what", "the", "is", "a", "an", "i", "you", "it", "this", "that", "does", "do", "how", "why", "be", "have", "make", "take", "get", "go", "know", "think", "see", "come", "come", "use", "find", "give", "tell", "work", "call", "ask", "need", "feel", "become", "leave", "put", "mean", "keep", "let", "begin", "seem", "help", "talk", "turn", "start", "show", "hear", "act", "show", "move", "like", "live", "believe", "hold", "bring", "happen", "write", "provide", "sit", "stand", "lose", "pay", "meet", "include", "continue", "set", "learn", "change", "lead", "understand", "watch", "follow", "stop", "create", "speak", "read", "allow", "add", "spend", "grow", "open", "walk", "win", "offer", "remember", "love", "consider", "appear", "buy", "wait", "serve", "die", "send", "expect", "build", "stay", "fall", "cut", "reach", "kill", "remain", "suggest", "raise", "pass", "sell", "require", "report", "decide", "pull", "explain", "develop", "carry", "break", "receive", "agree", "support", "hit", "produce", "eat", "cover", "catch", "draw", "choose", "strike", "manage", "shake", "drink", "choose", "share", "spread", "prepare", "speak", "try", "release", "search", "charge", "race", "climb", "rush", "mix", "mark", "fight", "fit", "establish", "cook", "jump", "laugh", "apply", "spend", "score", "operate", "divide", "sign", "hang", "rest", "serve", "sing", "arrive", "return", "visit", "teach", "earn", "travel", "fly", "damage", "solve", "wrestle", "swim", "teach", "hunt", "achieve", "establish", "throw", "destroy", "dance", "suffer", "start", "spend", "trade", "slip", "protect", "represent", "join", "drive", "repair", "master", "suffer", "behave", "command", "ring", "pray", "notice", "reflect", "blame", "regret", "admit", "suffer", "extend", "waste", "supply", "retire", "employ", "escape", "grant", "resolve", "prove", "install", "engage", "generate", "inherit", "adopt", "succeed", "admit", "submit", "embrace", "suffer"}
+
+        if nlp:
+            doc = nlp(prompt)
+
+            # Extract meaningful noun chunks (multi-word candidate phrases)
+            for chunk in doc.noun_chunks:
+                # Build lemmatized phrase from non-stop alphabetic tokens
+                lemmas = [tok.lemma_.lower() for tok in chunk if not tok.is_stop and tok.is_alpha]
+                if not lemmas:
+                    continue
+                phrase = " ".join(lemmas).strip()
+                if len(phrase) >= 3 and phrase not in stopset:
+                    candidates.add(phrase)
+
+            # Also extract single-token nouns/proper nouns
+            for tok in doc:
+                if tok.pos_ in ("NOUN", "PROPN") and not tok.is_stop and tok.is_alpha:
+                    lemma = tok.lemma_.lower()
+                    if len(lemma) >= 3 and lemma not in stopset:
+                        candidates.add(lemma)
+        else:
+            # Fallback: very simple heuristic split
+            for part in prompt.split():
+                word = ''.join(ch for ch in part.lower() if ch.isalpha())
+                if len(word) >= 4 and word not in stopset:
+                    candidates.add(word)
+
+        # Deduplication: remove single tokens if they appear in multi-word phrases
+        dedup_candidates = set(candidates)
+        for phrase in list(dedup_candidates):
+            if " " in phrase:  # Multi-word phrase
+                for token in phrase.split():
+                    dedup_candidates.discard(token)
+
+        # Save review entry with cleaned candidates and original prompt
+        if db:
+            try:
+                review_ref = db.collection('needs_review').document()
+                review_ref.set({
+                    'prompt': prompt,
+                    'candidates': sorted(list(dedup_candidates)),
+                    'reason': 'Extracted candidate unknown concepts (deduplicated)',
+                    'timestamp': datetime.utcnow()
+                })
+                logger.info(f"Logged prompt for review with deduplicated candidates: {dedup_candidates}")
+
+                # Add each candidate to unknown_words collection for learning pipeline
+                from brain.db import add_word
+                for cand in dedup_candidates:
+                    try:
+                        # add_word with is_known=False will create an entry in unknown_words
+                        add_word(cand, explanation="", is_known=False)
+                    except Exception as e:
+                        logger.debug(f"Failed to add unknown candidate {cand}: {e}")
+
+            except Exception as e:
+                logger.error(f"Error logging prompt for review: {e}", exc_info=True)
+        else:
+            logger.warning("No Firestore DB available to log unknowns.")
+
+    except Exception as e:
+        logger.error(f"Error in detect_and_log_unknown_words: {e}", exc_info=True)

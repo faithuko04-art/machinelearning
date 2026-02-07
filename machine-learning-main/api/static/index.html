@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Big Learning Monitor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .control-panel {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #startBtn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        #startBtn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        #startBtn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        #resetBtn {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        #resetBtn:hover {
+            background: #e0e0e0;
+        }
+
+        .status-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .status-item {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .status-label {
+            color: #999;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .status-value {
+            color: #333;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .progress-container {
+            margin-top: 15px;
+        }
+
+        .progress-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #1565c0;
+            margin-bottom: 15px;
+        }
+
+        .error-box {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #c62828;
+            margin-bottom: 15px;
+        }
+
+        .success-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+
+        .log-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .log-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .log-content {
+            background: #1e1e1e;
+            color: #0f0;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 12px;
+            padding: 12px;
+            border-radius: 6px;
+            max-height: 300px;
+            overflow-y: auto;
+            line-height: 1.5;
+        }
+
+        .log-line {
+            margin: 2px 0;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-running {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-completed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-failed {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-queued {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .panel {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+            color: #333;
+        }
+
+        .panel strong {
+            display: block;
+            margin-bottom: 12px;
+            color: #333;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .panel button {
+            padding: 8px 12px;
+            font-size: 12px;
+            margin: 0 4px 0 0;
+            background: #667eea;
+            color: white;
+        }
+
+        .panel button:hover {
+            background: #764ba2;
+        }
+
+        #chatLog {
+            background: #2c3e50 !important;
+            color: #ecf0f1 !important;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            min-height: 140px;
+            padding: 10px !important;
+            border-radius: 6px !important;
+            font-family: 'Monaco', 'Courier New', monospace !important;
+            font-size: 12px !important;
+            line-height: 1.4;
+        }
+
+        #chatInput {
+            background: #f5f5f5 !important;
+            color: #333 !important;
+            border: 1px solid #ddd !important;
+            padding: 10px !important;
+            border-radius: 6px !important;
+        }
+
+        #chatInput::placeholder {
+            color: #999;
+        }
+
+        @media (max-width: 900px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .status-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .control-panel {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Brain — Monitor · Chat · Graph</h1>
+        <div class="subtitle">Integrated view: training monitor, interactive graph, and chat</div>
+
+        <div class="control-panel">
+            <button id="startBtn" onclick="startBigJob()">Start Big Learning Job</button>
+            <button id="batchBtn" onclick="startBatch()">Start Next Batch</button>
+            <button id="resetBtn" onclick="resetUI()">Reset UI</button>
+        </div>
+
+        <div class="main-grid">
+            <div class="left-column">
+                <div class="status-section">
+                    <div class="status-grid">
+                        <div class="status-item">
+                            <div class="status-label">Job ID</div>
+                            <div class="status-value" id="jobId">-</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Status</div>
+                            <div id="statusBadge" class="badge badge-queued">Queued</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Rounds</div>
+                            <div class="status-value" id="roundsCount">0</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">Tokens Learned</div>
+                            <div class="status-value" id="tokensCount">0</div>
+                        </div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-label">
+                            <span>Progress</span>
+                            <span id="progressPercent">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                    </div>
+
+                    <div id="infoMessage"></div>
+                </div>
+
+                <div class="log-section">
+                    <div class="log-title">Live Events</div>
+                    <div class="log-content" id="logContent">
+                        <div class="log-line">Waiting for updates...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="panel glass">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+                        <strong>Interactive Knowledge Graph</strong>
+                        <div>
+                            <button onclick="toggleFullScreen()">Toggle Fullscreen</button>
+                            <button onclick="zoomIn()">Zoom In</button>
+                            <button onclick="zoomOut()">Zoom Out</button>
+                        </div>
+                    </div>
+                    <div id="graphContainer" style="height:360px;border-radius:10px;overflow:hidden;background:rgba(255,255,255,0.03);"></div>
+                    <div id="nodeDetail" style="margin-top:8px;padding:8px;border-radius:6px;background:#ffffff11;color:#fff;font-size:13px;display:none"></div>
+                </div>
+
+                <div class="panel glass" style="margin-top:12px;">
+                    <strong>Chat (Groq/Gemini with local echo fallback)</strong>
+                    <div id="chatLog" style="height:160px;overflow:auto;margin:8px 0;">No messages yet.</div>
+                    <div style="display:flex;gap:8px;">
+                        <input id="chatInput" placeholder="Type a message" style="flex:1;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);background:transparent;color:#fff;"/>
+                        <button onclick="sendChat()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load D3 dynamically if not present
+        (function loadD3(){
+            if (typeof d3 === 'undefined'){
+                const s = document.createElement('script');
+                s.src = 'https://d3js.org/d3.v7.min.js';
+                s.onload = ()=>{ addLog('D3 loaded','info'); };
+                s.onerror = ()=>{ addLog('Failed to load D3','error'); };
+                document.head.appendChild(s);
+            }
+        })();
+        let ws = null;
+        let currentJobId = null;
+        const apiBase = window.location.origin;
+
+        function addLog(message, type = 'info') {
+            const logContent = document.getElementById('logContent');
+            const line = document.createElement('div');
+            line.className = 'log-line';
+            
+            const timestamp = new Date().toLocaleTimeString();
+            
+            let prefix = '➜';
+            if (type === 'error') prefix = '❌';
+            else if (type === 'success') prefix = '✅';
+            else if (type === 'warning') prefix = '⚠️ ';
+            
+            line.textContent = `[${timestamp}] ${prefix} ${message}`;
+            logContent.appendChild(line);
+            logContent.scrollTop = logContent.scrollHeight;
+        }
+
+        function setBadge(status) {
+            const badge = document.getElementById('statusBadge');
+            badge.className = 'badge';
+            
+            let text = status.toUpperCase();
+            if (status === 'queued') {
+                badge.classList.add('badge-queued');
+            } else if (status === 'running') {
+                badge.classList.add('badge-running');
+                text = '<span class="spinner"></span>' + text;
+            } else if (status === 'completed') {
+                badge.classList.add('badge-completed');
+            } else if (status === 'failed') {
+                badge.classList.add('badge-failed');
+            }
+            badge.innerHTML = text;
+        }
+
+        async function startBigJob() {
+            document.getElementById('startBtn').disabled = true;
+            addLog('Starting Big Learning Job...', 'info');
+            
+            try {
+                const response = await fetch(`${apiBase}/jobs/start_big`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                currentJobId = data.job_id;
+                
+                document.getElementById('jobId').textContent = currentJobId.slice(0, 8) + '...';
+                
+                addLog(`Job created: ${currentJobId}`, 'info');
+                addLog('Connecting to job WebSocket...', 'info');
+                
+                connectWebSocket(currentJobId);
+            } catch (error) {
+                addLog(`Failed to start job: ${error.message}`, 'error');
+                document.getElementById('startBtn').disabled = false;
+            }
+        }
+
+        function connectWebSocket(jobId) {
+            const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsUrl = `${protocol}//${window.location.host}/ws/jobs/${jobId}`;
+            
+            ws = new WebSocket(wsUrl);
+
+            ws.onopen = () => {
+                addLog('Connected to job stream', 'success');
+            };
+
+            ws.onmessage = (event) => {
+                const jobData = JSON.parse(event.data);
+                updateUI(jobData);
+            };
+
+            ws.onerror = (error) => {
+                addLog(`WebSocket error: ${error}`, 'error');
+            };
+
+                ws.onclose = () => {
+                    addLog('Job stream closed', 'warning');
+                };
+        }
+
+        function updateUI(jobData) {
+            const status = jobData.status || 'unknown';
+            setBadge(status);
+            
+            document.getElementById('roundsCount').textContent = jobData.last_round || 0;
+            document.getElementById('tokensCount').textContent = jobData.total_tokens || 0;
+            
+            const progress = jobData.progress || 0;
+            document.getElementById('progressPercent').textContent = `${progress}%`;
+            document.getElementById('progressFill').style.width = `${progress}%`;
+
+            const infoDiv = document.getElementById('infoMessage');
+            if (status === 'completed') {
+                infoDiv.innerHTML = `<div class="success-box">✅ Learning job completed successfully! Processed ${jobData.total_tokens || 0} tokens across ${jobData.last_round || 0} rounds.</div>`;
+                addLog('Job completed!', 'success');
+                document.getElementById('startBtn').disabled = false;
+            } else if (status === 'failed') {
+                const errors = jobData.errors ? jobData.errors.join('; ') : 'Unknown error';
+                infoDiv.innerHTML = `<div class="error-box">❌ Job failed: ${errors}</div>`;
+                addLog(`Job failed: ${errors}`, 'error');
+                document.getElementById('startBtn').disabled = false;
+            } else if (status === 'running') {
+                infoDiv.innerHTML = `<div class="info-box">⏳ Job is running... Round ${jobData.last_round || 0}, ${jobData.total_tokens || 0} tokens learned so far.</div>`;
+            }
+        }
+
+        function resetUI() {
+            if (ws) ws.close();
+            ws = null;
+            currentJobId = null;
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('logContent').innerHTML = '<div class="log-line">Waiting for updates...</div>';
+        }
+
+        // Attempt automatic reconnect only when job remains queued/running
+        setInterval(async () => {
+            if (!currentJobId) return;
+            if (ws && ws.readyState !== WebSocket.CLOSED) return;
+
+            try {
+                const res = await fetch(`${apiBase}/jobs/${currentJobId}`);
+                if (!res.ok) {
+                    addLog('Failed to fetch job status for reconnect', 'warning');
+                    return;
+                }
+                const job = await res.json();
+                const status = (job.status || 'unknown').toLowerCase();
+
+                if (status === 'running' || status === 'queued') {
+                    addLog('Reconnecting...', 'warning');
+                    connectWebSocket(currentJobId);
+                } else {
+                    addLog(`Job status is '${status}'; not reconnecting.`, 'info');
+                    // Ensure UI is re-enabled for new jobs
+                    document.getElementById('startBtn').disabled = false;
+                }
+            } catch (err) {
+                addLog(`Reconnect check error: ${err.message}`, 'error');
+            }
+        }, 5000);
+
+        // --- Additional UI: batches, chat, graph ---
+        async function startBatch() {
+            document.getElementById('batchBtn').disabled = true;
+            addLog('Starting next enrichment batch...', 'info');
+            try {
+                const res = await fetch(`${apiBase}/batch/run`, {method:'POST'});
+                const j = await res.json();
+                addLog(`Batch status: ${JSON.stringify(j)}`, 'info');
+                if (j.job_id) {
+                    currentJobId = j.job_id;
+                    document.getElementById('jobId').textContent = currentJobId.slice(0,8) + '...';
+                    addLog(`Batch job queued: ${currentJobId}`, 'info');
+                    connectWebSocket(currentJobId);
+                }
+            } catch (err) {
+                addLog(`Failed to start batch: ${err.message}`, 'error');
+            } finally {
+                setTimeout(()=>document.getElementById('batchBtn').disabled=false, 2000);
+            }
+        }
+
+        // Chat
+        async function sendChat() {
+            const input = document.getElementById('chatInput');
+            const text = input.value.trim();
+            if (!text) return;
+            appendChat('You', text);
+            input.value = '';
+            try {
+                const res = await fetch(`${apiBase}/generate`, {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text})});
+                const j = await res.json();
+                const who = j.provider ? `${j.provider}` : 'AI';
+                appendChat(who, j.response || '(no response)');
+            } catch (err) {
+                appendChat('AI', `(error) ${err.message}`);
+            }
+        }
+
+        function appendChat(who, text) {
+            const log = document.getElementById('chatLog');
+            if (log.innerText === 'No messages yet.') log.innerText = '';
+            const time = new Date().toLocaleTimeString();
+            const line = document.createElement('div');
+            line.style.marginBottom = '6px';
+            line.style.paddingBottom = '6px';
+            line.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+            line.style.color = who === 'You' ? '#ecf0f1' : '#4caf50';
+            line.innerText = `[${time}] ${who}: ${text}`;
+            log.appendChild(line);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        // Graph
+        let d3Simulation = null;
+        let currentZoom = 1;
+
+        function showNodeDetail(d) {
+            const panel = document.getElementById('nodeDetail');
+            panel.style.display = 'block';
+            panel.innerHTML = '';
+            const title = document.createElement('div');
+            title.innerHTML = `<strong>${d.label || d.id}</strong> <span style="opacity:0.8;margin-left:8px;">${d.category||''}</span>`;
+            panel.appendChild(title);
+
+            const info = document.createElement('div');
+            info.style.marginTop = '6px';
+            info.innerText = `id: ${d.id}`;
+            panel.appendChild(info);
+
+            const btn = document.createElement('button');
+            btn.style.marginTop = '8px';
+            btn.innerText = 'Finalize';
+            btn.onclick = async () => {
+                btn.disabled = true;
+                addLog(`Requesting finalize for ${d.id}`,'info');
+                try {
+                    const res = await fetch(`${apiBase}/jobs/finalize`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({concept_id: d.id})});
+                    const j = await res.json();
+                    addLog(`Finalize enqueued: ${JSON.stringify(j)}`,'info');
+                    if (j.job_id) {
+                        currentJobId = j.job_id;
+                        document.getElementById('jobId').textContent = currentJobId.slice(0,8) + '...';
+                        connectWebSocket(currentJobId);
+                    }
+                } catch (err) {
+                    addLog('Failed to enqueue finalize: '+err.message,'error');
+                } finally {
+                    btn.disabled = false;
+                }
+            };
+            panel.appendChild(btn);
+            // try to fetch finalized doc
+            (async ()=>{
+                try {
+                    const res = await fetch(`${apiBase}/solidified_knowledge/${d.id}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        const pre = document.createElement('pre');
+                        pre.style.marginTop = '8px';
+                        pre.style.whiteSpace = 'pre-wrap';
+                        pre.style.background = 'rgba(255,255,255,0.04)';
+                        pre.style.padding = '8px';
+                        pre.innerText = JSON.stringify(data, null, 2);
+                        panel.appendChild(pre);
+                    }
+                } catch (err) {
+                    // ignore
+                }
+            })();
+        }
+
+        async function loadGraph() {
+            try {
+                const res = await fetch(`${apiBase}/static/graph.json`);
+                const graph = await res.json();
+                renderGraph(graph);
+            } catch (err) {
+                addLog('Failed to load graph: '+err.message,'error');
+            }
+        }
+
+        function renderGraph(graph) {
+            const container = document.getElementById('graphContainer');
+            container.innerHTML = '';
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            const svg = d3.select(container).append('svg').attr('width', width).attr('height', height).style('background','linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0))');
+            const g = svg.append('g');
+
+            const link = g.append('g').attr('stroke', '#999').attr('stroke-opacity', 0.6)
+                .selectAll('line').data(graph.links).join('line').attr('stroke-width', d=>Math.sqrt(d.weight||1));
+
+            const node = g.append('g').attr('stroke', '#fff').attr('stroke-width', 1.5)
+                .selectAll('circle').data(graph.nodes).join('circle').attr('r',6).attr('fill','#ffffffcc');
+
+            node.style('cursor','pointer').on('click', (event,d) => { showNodeDetail(d); });
+
+            const label = g.append('g').selectAll('text').data(graph.nodes).join('text').text(d=>d.label).attr('font-size',10).attr('dx',8).attr('dy','.35em').attr('fill','#fff');
+
+            d3Simulation = d3.forceSimulation(graph.nodes).force('link', d3.forceLink(graph.links).id(d=>d.id).distance(80)).force('charge', d3.forceManyBody().strength(-120)).force('center', d3.forceCenter(width/2, height/2));
+
+            d3Simulation.on('tick', ()=>{
+                link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
+                node.attr('cx',d=>d.x).attr('cy',d=>d.y);
+                label.attr('x',d=>d.x).attr('y',d=>d.y);
+            });
+
+            // zoom
+            const zoom = d3.zoom().scaleExtent([0.2, 4]).on('zoom', (event)=>{ g.attr('transform', event.transform); currentZoom = event.transform.k; });
+            svg.call(zoom);
+        }
+
+        function toggleFullScreen(){
+            const el = document.getElementById('graphContainer');
+            if (!document.fullscreenElement) el.requestFullscreen().catch(()=>{});
+            else document.exitFullscreen().catch(()=>{});
+        }
+
+        function zoomIn(){ if (!d3Simulation) return; currentZoom = Math.min(4, currentZoom+0.2); d3.select('#graphContainer svg').transition().call(d3.zoom().scaleTo, currentZoom); }
+        function zoomOut(){ if (!d3Simulation) return; currentZoom = Math.max(0.2, currentZoom-0.2); d3.select('#graphContainer svg').transition().call(d3.zoom().scaleTo, currentZoom); }
+
+        // initial graph load
+        window.addEventListener('load', ()=>{
+            loadGraph();
+            addLog('AI ready. Start a job or click graph nodes to finalize.', 'info');
+        });
+    </script>
+</body>
+</html>

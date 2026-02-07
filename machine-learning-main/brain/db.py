@@ -1,7 +1,7 @@
 # brain/db.py
 import logging
 from datetime import datetime
-from services import db
+from services.services import db
 
 logger = logging.getLogger(__name__)
 
